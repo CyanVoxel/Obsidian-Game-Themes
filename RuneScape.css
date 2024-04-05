@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------
-                      RuneScape Theme by CyanVoxel v1.0.1
+                      RuneScape Theme by CyanVoxel v1.0.2
 ------------------------------------------------------------------------------*/
 
 :root {
@@ -40,6 +40,8 @@
   --metadata-input-text-color: var(--accent-color);
   --tag-background: var(--accent-color-trans);
 
+  --code-normal: var(--accent-color);
+  --code-background: color-mix(in srgb,var(--page-color) 80%,black) !important;
   --text-faint: var(--accent-color-trans);
   --blockquote-border-color: var(--accent-color);
   --interactive-accent: var(--accent-color);
@@ -53,6 +55,7 @@
   --background-modifier-border-focus: var(--accent-color);
   --background-modifier-border: var(--accent-color-trans);
   --background-modifier-hover: var(--accent-color-trans);
+  --metadata-input-background-active: var(--accent-color-trans);
   color: white;
   --hr-color: var(--accent-color);
 }
